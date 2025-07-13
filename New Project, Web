@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perbandingan Phone Gaming</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-mode">
+
+  <header>
+    <h1>Perbandingan Phone Gaming</h1>
+    <button id="themeToggle">Tukar ke Light Mode</button>
+    <p>Bandingkan spesifikasi dan prestasi phone pilihan anda</p>
+  </header>
+
+  <div class="container">
+    <table>
+      <thead>
+        <tr class="phone-names">
+          <td>Spesifikasi</td>
+          <td>RedMagic 10</td>
+          <td>ROG Phone 8</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Processor</td>
+          <td data-label="RedMagic 10">Snapdragon 8 Gen 3</td>
+          <td data-label="ROG Phone 8">Snapdragon 8 Gen 3</td>
+        </tr>
+        <tr>
+          <td>RAM</td>
+          <td data-label="RedMagic 10">16GB LPDDR5X</td>
+          <td data-label="ROG Phone 8">12GB LPDDR5X</td>
+        </tr>
+        <tr>
+          <td>Skrin</td>
+          <td data-label="RedMagic 10">6.8" AMOLED 144Hz</td>
+          <td data-label="ROG Phone 8">6.78" AMOLED 165Hz</td>
+        </tr>
+        <tr>
+          <td>Bateri</td>
+          <td data-label="RedMagic 10">6000mAh</td>
+          <td data-label="ROG Phone 8">5500mAh</td>
+        </tr>
+        <tr>
+          <td>Harga</td>
+          <td data-label="RedMagic 10">RM 3,000</td>
+          <td data-label="ROG Phone 8">RM 4,500</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
